@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ViewDNS Clone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .tool {
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        .tool h3 {
+            margin-top: 0;
+            font-size: 18px;
+            color: #333;
+        }
+
+        .tool input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        .tool button {
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .tool button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            margin-top: 20px;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    ViewDNS Clone
+</header>
+
+<div class="container">
+    <div class="tool">
+        <h3>Reverse IP Lookup</h3>
+        <input type="text" placeholder="Domain / IP">
+        <button>Go</button>
+    </div>
+
+    <div class="tool">
+        <h3>Reverse Whois Lookup</h3>
+        <input type="text" placeholder="Registrant Name or Email">
+        <button>Go</button>
+    </div>
+
+    <div class="tool">
+        <h3>IP History</h3>
+        <input type="text" placeholder="Domain (e.g., domain.com)">
+        <button>Go</button>
+    </div>
+
+    <div class="tool">
+        <h3>DNS Report</h3>
+        <input type="text" placeholder="Domain (e.g., domain.com)">
+        <button>Go</button>
+    </div>
+
+    <div class="tool">
+        <h3>IP Location Finder</h3>
+        <input type="text" placeholder="IP">
+        <button>Go</button>
+    </div>
+
+    <div class="tool">
+        <h3>Is My Site Down</h3>
+        <input type="text" placeholder="Domain (e.g., domain.com)">
+        <button>Go</button>
+    </div>
+
+    <div class="tool">
+        <h3>Get HTTP Headers</h3>
+        <input type="text" placeholder="Domain">
+        <button>Go</button>
+    </div>
+
+    <div class="tool">
+        <h3>Chinese Firewall Test</h3>
+        <input type="text" placeholder="URL / Domain">
+        <button>Go</button>
+    </div>
+</div>
+
+<footer>
+    &copy; 2025 ViewDNS Clone. All Rights Reserved.
+</footer>
+
+</body>
+</html>
